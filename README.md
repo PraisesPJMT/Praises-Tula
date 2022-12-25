@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📗 Table of Contents](#table-of-contents)
+- [📖 Praises Tula - Porfolio ](#about-project)
+    - [🛠 Built With ](#built-with)
+        - [Tech Stack ](#tech-stack)
+        - [Key Features ](#key-features)
+    - [🚀 Live Demo](#live-demo)
+    - [🔭 Preview ](#preview)
+    - [💻 Getting Started ](#getting-started)
+        - [Prerequisites](#prerequisites)
+        - [Setup](#setup)
+        - [Install](#install)
+        - [Usage](#usage)
+    - [👥 Authors ](#authors)
+    - [🤝 Contributing ](#contributing)
+    - [🙏 Acknowledgements](#acknowledgements)
+    - [⭐️ Show your support ](#️show-your-support)
+    - [📝 License ](#license)
 
-## Available Scripts
+# 📖 Praises Tula - Portfolio <a name="about-project"></a>
 
-In the project directory, you can run:
+> Hello!! I am Praises Tula and this is my personal portfolio.
 
-### `npm start`
+## 🛠 Built With <a name="built-with"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack <a name="tech-stack"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Here are the tech stacks applied in this project.
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F0DB4F.svg?style=for-the-badge&logo=JavaScript&logoColor=white) ![ESlint](https://img.shields.io/badge/ESlint-%23F0DB4F.svg?style=for-the-badge)
+- ![HTML5](https://img.shields.io/badge/HTML5-%23D93A2C.svg?style=for-the-badge&logo=HTML5&logoColor=white) ![LightHouse](https://img.shields.io/badge/LightHouse-%23D93A2C.svg?style=for-the-badge)
+- ![CSS3](https://img.shields.io/badge/CSS3-%23006BB4.svg?style=for-the-badge&logo=CSS3&logoColor=white) ![StyleLint](https://img.shields.io/badge/StyleLint-%23006BB4.svg?style=for-the-badge)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
+> My portfolio has the following key features:
+- View details about me.
+- Read my bio.
+- View my tech stack and tools.
+- See my portfolio of projects over the years.
+- Download my resume.
+- Contact me using a simple form submission.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔭 Preview <a name="preview"></a>
+Coming soon...
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Coming soon...
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+The following applications are required to be installed for the project to run!
+- Modern browser e.g [Google Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?r=1), [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) etc.
+- [Node.js](https://nodejs.org/en/download/) LTS version
+- [Git](https://git-scm.com/downloads)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Setup
+Clone [this](https://github.com/PraisesPJMT/Praises-Tula.git) GitHub repository using:
+```sh
+    git clone https://github.com/PraisesPJMT/Praises-Tula.git
+    cd Praises-Tula
+```
+    
+### Install
+Install all required modules using:
+```sh
+  npm install
+```
+### Usage
+To run the project, execute the following command:
+```sh
+  npm start
+```
+- This should launch the app on the browser
+- If the app is not opened immediately, then open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👥 Authors <a name="authors"></a>
+👤 **Praises Tula**
 
-### Analyzing the Bundle Size
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PraisesPJMT/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praises-tula/)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/PraisesPJMT/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praisesmusa@gmail.com)
+[![AngelList](https://img.shields.io/badge/AngelList-%23D4D4D4.svg?style=for-the-badge&logo=AngelList&logoColor=black)](https://angel.co/u/praises-tula/)
+[![Mastodon](https://img.shields.io/badge/Mastodon-%5F73FBD4.svg?style=for-the-badge&logo=Mastodon&logoColor=white)](https://ruby.social/@pjmt)
 
-### Making a Progressive Web App
+## 🤝 Contributing <a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- Original design idea by  [Yanka Darelova](https://www.behance.net/darelova) on Behance.
+- Hat tip to you for checking out this amazing project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
