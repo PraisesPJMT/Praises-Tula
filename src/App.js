@@ -1,7 +1,8 @@
 import './App.css';
+import Hello from './components/hello/Hello';
 
 const App = () => (
-  <h1>Praises Tula</h1>
+  <Hello />
 );
 
 export default App;
