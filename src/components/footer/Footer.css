@@ -1,0 +1,32 @@
+footer {
+  position: sticky;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  color: #607b96;
+  border-top: 1px solid #1e2d3d;
+  border-radius: 0 0 8px 8px;
+}
+
+.find-me {
+  margin-right: auto;
+  padding: 10px;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #607b96;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #1e2d3d;
+  padding: 10px;
+  width: 52px;
+}
+
+header .links-container {
+  margin-top: auto;
+}
