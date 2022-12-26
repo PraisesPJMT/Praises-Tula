@@ -1,0 +1,87 @@
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  position: relative;
+  padding: 96px 27px 85px 27px;
+  min-height: 640px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 62px;
+  color: #e5e9f0;
+}
+
+.norm {
+  font-weight: 450;
+  font-size: 18px;
+  color: #e5e9f0;
+  order: -1;
+}
+
+.sub-title {
+  font-weight: 450;
+  font-size: 20px;
+  color: #43d9ad;
+}
+
+.comment {
+  font-weight: 450;
+  font-size: 14px;
+  color: #607b96;
+  margin: 16px 0;
+}
+
+.code {
+  font-weight: 500;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.purple {
+  color: #4d5bce;
+}
+
+.green {
+  color: #43d9ad;
+}
+
+.orange {
+  color: #e99287;
+}
+
+.green-bg {
+  position: absolute;
+  width: 255px;
+  height: 277px;
+  left: 20px;
+  top: 100px;
+  background: #43d9ad;
+  opacity: 0.4;
+  filter: blur(87px);
+  transform: rotate(-94.3deg);
+}
+
+.purple-bg {
+  position: absolute;
+  width: 255px;
+  height: 277px;
+  left: 70px;
+  top: 220px;
+  background: #4d5bce;
+  opacity: 0.4;
+  filter: blur(87px);
+  transform: rotate(13.51deg);
+}
+
+.mono {
+  font-family: monospace;
+  font-weight: bold;
+}
