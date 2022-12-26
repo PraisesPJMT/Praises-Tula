@@ -1,7 +1,33 @@
 header {
   display: flex;
-  padding: 18px;
+  flex-direction: column;
   border: 1px solid #1e2d3d;
+  width: 100%;
+}
+
+.mobile-opened {
+  height: 100vh;
+  z-index: 3;
+  border-radius: 8px;
+  background: #011627;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobile-closed {
+  height: auto;
+  z-index: 0;
+  border-radius: 8px 8px 0 0;
+  background: none;
+  position: static;
+}
+
+.mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
 }
 
 .logo {
@@ -10,7 +36,6 @@ header {
   font-size: 16px;
   text-decoration: none;
   color: #607b96;
-  margin-right: auto;
 }
 
 .mobile-menu-control {
@@ -19,8 +44,34 @@ header {
   background: none;
   border: none;
   cursor: pointer;
+  padding: 5px;
 }
 
-.close {
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav a {
+  color: #607b96;
+  text-decoration: none;
+  padding: 18px;
+  border-top: 1px solid #1e2d3d;
+  border-bottom: 1px solid #1e2d3d;
+}
+
+.nav a:hover {
+  color: #1e2d3d;
+  background: #607b96;
+}
+
+.hide {
   display: none;
+}
+
+.show {
+  display: flex;
 }
