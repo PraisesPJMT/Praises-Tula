@@ -133,6 +133,7 @@
 
 .snippet-header {
   justify-content: space-between;
+  align-items: end;
   color: var(--textColor);
 }
 
@@ -163,6 +164,7 @@
 
 .snippet {
   font-size: 12px;
+  text-align: start;
   color: var(--textColor);
   padding: 21px;
   background: var(--darkBackground);
