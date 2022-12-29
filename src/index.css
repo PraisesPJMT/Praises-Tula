@@ -4,12 +4,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+:root {
+  --mainColor: #011627;
+  --purpleColor: #4d5bce;
+  --greenColor: #43d9ad;
+  --orangeColor: #e99287;
+  --borderColor: #1e2d3d;
+  --darkBackground: #011221;
+  --textColor: #607b96;
+  --textWhite: #fff;
+  --btnWidth: 20px;
 }
 
 body {
   margin: 0;
   padding: 15px;
-  font-family: 'Fira Code', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #010c15;

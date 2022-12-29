@@ -1,5 +1,7 @@
 footer {
-  position: sticky;
+  margin-top: auto;
+
+  /* position: sticky; */
 }
 
 .links-container {
