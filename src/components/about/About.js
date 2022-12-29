@@ -9,13 +9,16 @@ const About = () => (
   <section className="about">
     <h2 className="sub-heading">_about</h2>
     <Accordion />
-    <Bio />
-    <Interest />
-    <Profiles />
 
-    <ProBasic />
-    <TechStack />
-    <TechTools />
+    <div className="vertical-scroll">
+      <Bio />
+      <Interest />
+      <Profiles />
+
+      <ProBasic />
+      <TechStack />
+      <TechTools />
+    </div>
 
     <AboutSnippets />
   </section>

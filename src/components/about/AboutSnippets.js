@@ -38,7 +38,7 @@ const AboutSnippets = () => {
         <div className="bio-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>
@@ -68,9 +68,9 @@ const AboutSnippets = () => {
                   passion = [
                   <span className="green">&apos;UI creation&apos;</span>
                   ,
-                  <span className="green">&apos;animation&apos;</span>
+                  <span className="green"> &apos;animation&apos;</span>
                   ,
-                  <span className="green">&apos;dynamic user experience&apos;</span>
+                  <span className="green"> &apos;dynamic user experience&apos;</span>
                   ];
                 </span>
               </p>
@@ -95,7 +95,7 @@ const AboutSnippets = () => {
         <div className="interest-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>
@@ -138,11 +138,11 @@ const AboutSnippets = () => {
                   hobbies = [
                   <span className="green">&apos;Liverpool FC&apos;</span>
                   ,
-                  <span className="green">&apos;swimming&apos;</span>
+                  <span className="green"> &apos;swimming&apos;</span>
                   ,
-                  <span className="green">&apos;TV series&apos;</span>
+                  <span className="green"> &apos;TV series&apos;</span>
                   ,
-                  <span className="green">&apos;travelling&apos;</span>
+                  <span className="green"> &apos;travelling&apos;</span>
                   ];
                 </span>
               </p>
@@ -159,7 +159,7 @@ const AboutSnippets = () => {
         <div className="profile-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>
@@ -229,7 +229,7 @@ const AboutSnippets = () => {
         <div className="basic-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>
@@ -253,13 +253,13 @@ const AboutSnippets = () => {
                   softSkills = [
                   <span className="green">&apos;Remote prog.&apos;</span>
                   ,
-                  <span className="green">&apos;Pair Prog.&apos;</span>
+                  <span className="green"> &apos;Pair Prog.&apos;</span>
                   ,
-                  <span className="green">&apos;Comms.&apos;</span>
+                  <span className="green"> &apos;Comms.&apos;</span>
                   ,
-                  <span className="green">&apos;teamwork&apos;</span>
+                  <span className="green"> &apos;teamwork&apos;</span>
                   ,
-                  <span className="green">&apos;leadership&apos;</span>
+                  <span className="green"> &apos;leadership&apos;</span>
                   ];
                 </span>
               </p>
@@ -295,7 +295,7 @@ const AboutSnippets = () => {
         <div className="tech-stack-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>
@@ -319,9 +319,9 @@ const AboutSnippets = () => {
                   languages = [
                   <span className="green">&apos;JavaScrip.&apos;</span>
                   ,
-                  <span className="green">&apos;Ruby&apos;</span>
+                  <span className="green"> &apos;Ruby&apos;</span>
                   ,
-                  <span className="green">&apos;Python&apos;</span>
+                  <span className="green"> &apos;Python&apos;</span>
                   ];
                 </span>
               </p>
@@ -332,7 +332,7 @@ const AboutSnippets = () => {
                   markup = [
                   <span className="green">&apos;HTML5&apos;</span>
                   ,
-                  <span className="green">&apos;CSS3&apos;</span>
+                  <span className="green"> &apos;CSS3&apos;</span>
                   ];
                 </span>
               </p>
@@ -343,11 +343,11 @@ const AboutSnippets = () => {
                   frameworks = [
                   <span className="green">&apos;Rails&apos;</span>
                   ,
-                  <span className="green">&apos;React&apos;</span>
+                  <span className="green"> &apos;React&apos;</span>
                   ,
-                  <span className="green">&apos;Bootstrap&apos;</span>
+                  <span className="green"> &apos;Bootstrap&apos;</span>
                   ,
-                  <span className="green">&apos;Tailwind CSS&apos;</span>
+                  <span className="green"> &apos;Tailwind CSS&apos;</span>
                   ];
                 </span>
               </p>
@@ -364,7 +364,7 @@ const AboutSnippets = () => {
         <div className="tool-stack-snippet snippet-wrapper">
           <div className="snippet-header">
             <div className="profile-wrapper">
-              <img src={Avatar} className="avatar" alt="Praises Tula Avatar" />
+              <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
               <div className="user-details">
                 <p className="username">@PraisesPJMT</p>
                 <p className="login">5 months ago</p>

@@ -141,7 +141,7 @@
   gap: 1rem;
 }
 
-.avatar {
+#avatar {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -180,4 +180,31 @@
 .code-body {
   padding: 0 15px;
   word-break: break-all;
+}
+
+.vertical-scroll {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--borderColor);
+  border-radius: 100vw;
+  margin-block: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mainColor);
+  border: 0.15rem solid var(--borderColor);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkBackground);
 }
