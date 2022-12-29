@@ -1,0 +1,181 @@
+.sub-heading {
+  padding: 21px 27px;
+  color: var(--textWhite);
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 5px 27px;
+  background: var(--borderColor);
+  color: var(--textColor);
+  cursor: pointer;
+}
+
+.accordion-arrow-icon {
+  font-size: 0.9rem;
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-content a {
+  text-decoration: none;
+  color: var(--textColor);
+  padding: 5px 27px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text {
+  color: var(--textColor);
+}
+
+.text-block {
+  color: var(--textColor);
+  padding: 0 27px 21px 27px;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.text-link {
+  color: var(--greenColor);
+}
+
+.text-link:hover {
+  color: var(--orangeColor);
+}
+
+.sub-heading2 {
+  color: var(--textWhite);
+  padding: 21px 0;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.links-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.links-box a {
+  color: var(--textColor);
+  font-size: 2.5rem;
+}
+
+.stack-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-heading3 {
+  color: var(--textWhite);
+  padding: 10px 0 5px 0;
+  font-weight: 300;
+  font-size: 14px;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.harsh {
+  font-family: 'Fira Code', monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.stack-wrap {
+  display: flex;
+  gap: 1rem;
+  margin: 5px 0;
+}
+
+.stack-icon {
+  font-size: 1.5rem;
+}
+
+/* Code Snippet Styles */
+
+.snippet-wrapper,
+.snippet-header,
+.profile-wrapper,
+.user-details,
+.details,
+.code-body,
+.snippet {
+  display: flex;
+}
+
+.snippet-wrapper,
+.user-details,
+.code-body,
+.snippet {
+  flex-direction: column;
+}
+
+.snippet-container {
+  padding: 21px 27px;
+}
+
+.snippet-wrapper {
+  gap: 0.5rem;
+}
+
+.snippet-header {
+  justify-content: space-between;
+  color: var(--textColor);
+}
+
+.profile-wrapper {
+  gap: 1rem;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--borderColor);
+}
+
+.username {
+  color: var(--purpleColor);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.login {
+  font-size: 12px;
+}
+
+.details {
+  gap: 0.5rem;
+}
+
+.snippet {
+  font-size: 12px;
+  color: var(--textColor);
+  padding: 21px;
+  background: var(--darkBackground);
+  border: 1px solid var(--borderColor);
+  border-radius: 15px;
+}
+
+.code,
+.code-end {
+  font-size: 14px;
+}
+
+.code-body {
+  padding: 0 15px;
+  word-break: break-all;
+}
