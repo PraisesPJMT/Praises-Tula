@@ -34,10 +34,10 @@ const data = [
     title: 'contacts',
     details: [
       {
-        id: 1, subtitle: 'email', value: 'praisesmusa@gmail.com', link: 'tel:+2348085852828',
+        id: 1, subtitle: 'email', value: 'praisesmusa@gmail.com', link: 'mailto:praisesmusa@gmail.com',
       },
       {
-        id: 2, subtitle: 'phone', value: '+234(0)8085851818', link: 'mailto:praisesmusa@gmail.com',
+        id: 2, subtitle: 'phone', value: '+234(0)8085851818', link: 'tel:+2348085852828',
       },
     ],
   },
@@ -93,7 +93,7 @@ const Accordion = () => {
                       className="content-icon"
                       icon={icons[detail.id - 1].icon}
                     />
-                    <span>{ detail.subtitle }</span>
+                    <span>{ detail.value }</span>
                   </a>
                 ))
               )}
