@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactAccordion from './ContactAccordion';
 import ContactForm from './ContactFrom';
+import Testimonial from './Testimonials';
 import './Contact.css';
 
 const Contact = () => (
@@ -9,6 +10,8 @@ const Contact = () => (
     <ContactAccordion />
 
     <ContactForm />
+
+    <Testimonial />
   </section>
 );
 
