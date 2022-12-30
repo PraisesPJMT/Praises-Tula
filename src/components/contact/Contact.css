@@ -1,0 +1,67 @@
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 21px 27px;
+  color: var(--textColor);
+}
+
+.field label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.input {
+  background: var(--darkBackground);
+  border: 1px solid var(--borderColor);
+  border-radius: 8px;
+  min-height: 41px;
+  padding: 10px 15px;
+  font-family: 'Fira Code', monospace;
+  color: var(--formTextColor);
+}
+
+.btn {
+  background: var(--btnColor);
+  border: 2px solid var(--btnColor);
+  padding: 10px 14px;
+  color: var(--textWhite);
+  border-radius: 8px;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn:hover {
+  background: var(--darkBackground);
+}
+
+.input:focus,
+.btn:focus {
+  border: 3px solid var(--textColor);
+  background: var(--darkBackground);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(96, 123, 150, 0.3);
+}
+
+.error {
+  text-align: center;
+  color: var(--orangeColor);
+  font-size: 12px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  padding: 21px 27px;
+}
+
+.form-message p {
+  color: var(--textColor);
+  text-align: center;
+  padding: 0 27px;
+}
