@@ -12,7 +12,7 @@ const Header = () => {
     { path: '/', link: '_hello' },
     { path: '/about', link: '_about-me' },
     { path: '/', link: '_projects' },
-    { path: '/', link: '_contact-me' },
+    { path: '/contact', link: '_contact-me' },
   ];
 
   return (

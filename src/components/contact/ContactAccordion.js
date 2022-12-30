@@ -4,28 +4,37 @@ import {
   faCaretRight, faCaretDown, faChevronRight,
   faEnvelope, faPhone,
 } from '@fortawesome/free-solid-svg-icons';
-import './About.css';
-import { faMarkdown } from '@fortawesome/free-brands-svg-icons';
+import {
+  faAngellist, faGitAlt, faLinkedin,
+  faMarkdown, faMastodon,
+} from '@fortawesome/free-brands-svg-icons';
 
 const data = [
   {
     id: 1,
-    type: 'links',
-    title: 'personal-info',
+    type: 'text',
+    title: 'find-me-also-on',
     details: [
-      { subid: 1, subtitle: 'bio' },
-      { subid: 2, subtitle: 'interest' },
-      { subid: 3, subtitle: 'public-profiles' },
+      {
+        id: 1, subtitle: 'github', value: 'GitHub Account', link: 'https://github.com/PraisesPJMT',
+      },
+      {
+        id: 2, subtitle: 'linkedin', value: 'LinkedIn Profile', link: 'https://www.linkedin.com/in/praises-tula',
+      },
+      {
+        id: 3, subtitle: 'mastodon', value: 'Mastodon Profile', link: 'https://ruby.social/@pjmt',
+      },
+      {
+        id: 4, subtitle: 'angellist', value: 'AngelList Profile', link: 'https://angel.co/u/praises-tula',
+      },
     ],
   },
   {
     id: 2,
     type: 'links',
-    title: 'professional-info',
+    title: 'testimonials',
     details: [
-      { subid: 1, subtitle: 'basic' },
-      { subid: 2, subtitle: 'tech-stack' },
-      { subid: 3, subtitle: 'tool-stack' },
+      { subid: 1, subtitle: 'testaments' },
     ],
   },
   {
@@ -34,21 +43,25 @@ const data = [
     title: 'contacts',
     details: [
       {
-        id: 1, subtitle: 'email', value: 'praisesmusa@gmail.com', link: 'mailto:praisesmusa@gmail.com',
+        id: 5, subtitle: 'email', value: 'praisesmusa@gmail.com', link: 'mailto:praisesmusa@gmail.com',
       },
       {
-        id: 2, subtitle: 'phone', value: '+234(0)8085851818', link: 'tel:+2348085852828',
+        id: 6, subtitle: 'phone', value: '+234(0)8085851818', link: 'tel:+2348085852828',
       },
     ],
   },
 ];
 
 const icons = [
-  { id: 1, subtitle: 'email', icon: faEnvelope },
-  { id: 2, subtitle: 'phone', icon: faPhone },
+  { id: 1, subtitle: 'github', icon: faGitAlt },
+  { id: 2, subtitle: 'linkedin', icon: faLinkedin },
+  { id: 3, subtitle: 'mastodon', icon: faMastodon },
+  { id: 4, subtitle: 'agellist', icon: faAngellist },
+  { id: 5, subtitle: 'email', icon: faEnvelope },
+  { id: 6, subtitle: 'phone', icon: faPhone },
 ];
 
-const Accordion = () => {
+const ContactAccordion = () => {
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   const toggle = (index) => {
@@ -105,4 +118,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default ContactAccordion;
