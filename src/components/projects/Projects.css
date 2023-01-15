@@ -1,0 +1,139 @@
+.project-list {
+  padding: 21px 27px;
+}
+
+.project-views a {
+  color: var(--textColor);
+}
+
+.project-views .project-icon {
+  font-size: 1.5rem;
+}
+
+/* Checkbox Styles */
+
+input[type="checkbox"] {
+  appearance: none;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: var(--mainColor);
+  border: 3px solid var(--borderColor);
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  padding: 3px;
+}
+
+input[type="checkbox"]::after {
+  content: "\f00c";
+  font-family: "FontAwesome", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--textWhite);
+  background: none;
+  display: none;
+}
+
+input[type="checkbox"]:hover {
+  background: var(--borderColor);
+}
+
+input[type="checkbox"]:checked {
+  background: var(--borderColor);
+  border: none;
+}
+
+input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.checkbox-label {
+  gap: 24px;
+}
+
+.label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--borderColor);
+  border-radius: 15px;
+}
+
+.project-image-container.desktop {
+  width: 100%;
+  position: relative;
+}
+
+.project-image-container.mobile {
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background: var(--borderColor);
+  border-radius: 15px 15px 0 0;
+}
+
+.project-image.desktop {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-image.mobile {
+  height: 100%;
+}
+
+.project-image-container.desktop span,
+.project-image-container.mobile span {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background: #a0bde1;
+  border-radius: 2px;
+  padding: 3px;
+  color: var(--mainColor);
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.project-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 31px;
+}
+
+.project-views {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-views .view-btn {
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  align-items: center;
+}
