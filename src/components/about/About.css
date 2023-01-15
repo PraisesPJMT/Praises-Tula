@@ -30,7 +30,8 @@
   flex-direction: column;
 }
 
-.accordion-content a {
+.accordion-content a,
+.sub-links {
   text-decoration: none;
   color: var(--textColor);
   padding: 5px 27px;
