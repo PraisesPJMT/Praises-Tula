@@ -1,29 +1,28 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import './App.css';
+// import { Router } from 'react-router-dom';
 import Hello from './components/hello/Hello';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Projects from './components/projects/Projects';
+import SideBar from './sections/SideBar';
+import AboutSection from './sections/AboutSection';
+import ProjectSection from './sections/ProjectSection';
+import ContactSection from './sections/ContactSection';
+import './sections/Sections.css';
+import './App.css';
 
 const App = () => (
-  <Router>
+  <>
     <Header />
     <main>
-      <Routes>
-        <Route path="/" element={<Hello />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <SideBar />
+      <div className="main">
+        <Hello />
+        <AboutSection />
+        <ProjectSection />
+        <ContactSection />
+      </div>
     </main>
     <Footer />
-  </Router>
+  </>
 
 );
 

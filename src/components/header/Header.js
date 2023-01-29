@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import {
-  Link, NavLink,
-} from 'react-router-dom';
 import './Header.css';
 import ContactLink from '../footer/ContactLink';
 
@@ -9,29 +6,30 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const NavBars = [
-    { path: '/', link: '_hello' },
-    { path: '/about', link: '_about-me' },
-    { path: '/projects', link: '_projects' },
-    { path: '/contact', link: '_contact-me' },
+    { path: '#hello', link: '_hello' },
+    { path: '#about', link: '_about-me' },
+    { path: '#projects', link: '_projects' },
+    { path: '#contact', link: '_contact-me' },
   ];
 
   return (
     <header className="header">
-      <Link className="logo" to="/">
+      <a className="logo" href="#hello">
         praises-tula
-      </Link>
+      </a>
 
       <nav className={`nav ${isOpen ? 'open' : 'close'}`}>
         {
           NavBars.map((nav) => (
-            <NavLink
-              className="nav-link"
-              to={nav.path}
+            <a
+              className={`nav-link ${nav.link.slice(1)}-link`}
+              href={nav.path}
+              id={window.location.pathname === nav.link ? 'active' : ''}
               key={nav.link}
               onClick={() => setIsOpen(false)}
             >
               { nav.link }
-            </NavLink>
+            </a>
           ))
         }
         { isOpen ? (<ContactLink />) : '' }

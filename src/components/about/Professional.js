@@ -59,32 +59,34 @@ const TechStack = () => (
           languages
         </span>
       </h4>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="javascript stack-icon"
-          icon={faSquareJs}
-        />
-        <span className="stack-name">
-          JavaScript
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="python stack-icon"
-          icon={faPython}
-        />
-        <span className="stack-name">
-          Python
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="ruby stack-icon"
-          icon={faGem}
-        />
-        <span className="stack-name">
-          Ruby
-        </span>
+      <div className="stack-con">
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="javascript stack-icon"
+            icon={faSquareJs}
+          />
+          <span className="stack-name">
+            JavaScript
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="python stack-icon"
+            icon={faPython}
+          />
+          <span className="stack-name">
+            Python
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="ruby stack-icon"
+            icon={faGem}
+          />
+          <span className="stack-name">
+            Ruby
+          </span>
+        </div>
       </div>
 
       <h4 className="sub-heading3">
@@ -122,50 +124,52 @@ const TechStack = () => (
           frameworks
         </span>
       </h4>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="bootstrap stack-icon"
-          icon={faBootstrap}
-        />
-        <span className="stack-name">
-          Bootstrap
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="react stack-icon"
-          icon={faReact}
-        />
-        <span className="stack-name">
-          React
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="tailwind stack-icon"
-          icon={faWind}
-        />
-        <span className="stack-name">
-          TailWind CSS
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="redux stack-icon"
-          icon={faReact}
-        />
-        <span className="stack-name">
-          Redux
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="rails stack-icon"
-          icon={faGem}
-        />
-        <span className="stack-name">
-          Ruby-on-Rails
-        </span>
+      <div className="stack-con">
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="bootstrap stack-icon"
+            icon={faBootstrap}
+          />
+          <span className="stack-name">
+            Bootstrap
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="react stack-icon"
+            icon={faReact}
+          />
+          <span className="stack-name">
+            React
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="tailwind stack-icon"
+            icon={faWind}
+          />
+          <span className="stack-name">
+            TailWind CSS
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="redux stack-icon"
+            icon={faReact}
+          />
+          <span className="stack-name">
+            Redux
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="rails stack-icon"
+            icon={faGem}
+          />
+          <span className="stack-name">
+            Ruby-on-Rails
+          </span>
+        </div>
       </div>
     </div>
   </div>
@@ -181,59 +185,61 @@ const TechTools = () => (
       </span>
     </h3>
     <div className="stack-box">
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="git stack-icon"
-          icon={faGitAlt}
-        />
-        <span className="stack-name">
-          Git
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="github stack-icon"
-          icon={faSquareGithub}
-        />
-        <span className="stack-name">
-          GitHub
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="inkscape stack-icon"
-          icon={faPalette}
-        />
-        <span className="stack-name">
-          Inkscape
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="code stack-icon"
-          icon={faLaptopCode}
-        />
-        <span className="stack-name">
-          VS Code
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="codepen stack-icon"
-          icon={faCodepen}
-        />
-        <span className="stack-name">
-          Codepen
-        </span>
-      </div>
-      <div className="stack-wrap">
-        <FontAwesomeIcon
-          className="jet-brains stack-icon"
-          icon={faFileCode}
-        />
-        <span className="stack-name">
-          JetBrains IDEs
-        </span>
+      <div className="stack-con">
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="git stack-icon"
+            icon={faGitAlt}
+          />
+          <span className="stack-name">
+            Git
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="github stack-icon"
+            icon={faSquareGithub}
+          />
+          <span className="stack-name">
+            GitHub
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="inkscape stack-icon"
+            icon={faPalette}
+          />
+          <span className="stack-name">
+            Inkscape
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="code stack-icon"
+            icon={faLaptopCode}
+          />
+          <span className="stack-name">
+            VS Code
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="codepen stack-icon"
+            icon={faCodepen}
+          />
+          <span className="stack-name">
+            Codepen
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="jet-brains stack-icon"
+            icon={faFileCode}
+          />
+          <span className="stack-name">
+            JetBrains IDEs
+          </span>
+        </div>
       </div>
 
     </div>
