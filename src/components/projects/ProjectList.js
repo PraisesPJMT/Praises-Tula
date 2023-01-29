@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-// eslint-disable-next-line import/no-cycle
-import Projects from '../../assets/data';
+// eslint-disable-next-line import/no-cycle,import/named
+import { Projects } from '../../assets/data';
 
 const ProjectList = () => (
   <div className="project-list">
