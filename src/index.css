@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
+/* html { */
+
+/*  scroll-behavior: smooth; */
+
+/* } */
+
 * {
   margin: 0;
   padding: 0;
@@ -28,4 +34,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #010c15;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0;
+    position: relative;
+  }
 }

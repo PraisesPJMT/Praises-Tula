@@ -78,7 +78,7 @@
 
 .quote {
   color: var(--orangeColor);
-  font-size: 14px;
+  font-size: 12px;
   background: var(--borderColor);
   border: 1px solid var(--borderColor);
   padding: 24px;
@@ -88,7 +88,7 @@
 .left-quote-icon,
 .right-quote-icon {
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--greenColor);
 }
 
@@ -113,7 +113,15 @@
   border: 5px solid var(--mainColor);
   position: absolute;
   bottom: 0;
-  right: 15px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-link img {
+  width: 60px;
+  height: 60px;
 }
 
 .quote-author-avatar {

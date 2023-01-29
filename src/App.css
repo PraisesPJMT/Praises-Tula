@@ -9,3 +9,9 @@
   min-height: 100vh;
   position: relative;
 }
+
+@media screen and (min-width: 768px) {
+  #root {
+    height: 100vh;
+  }
+}

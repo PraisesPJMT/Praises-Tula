@@ -32,3 +32,15 @@ footer {
 header .links-container {
   margin-top: auto;
 }
+
+@media screen and (min-width: 768px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: var(--mainColor);
+    border: 1px solid var(--borderColor);
+  }
+}
