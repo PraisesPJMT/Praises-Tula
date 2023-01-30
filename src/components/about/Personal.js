@@ -7,7 +7,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const Bio = () => (
-  <div id="bio" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="bio" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       personal-info
@@ -29,7 +30,8 @@ const Bio = () => (
 );
 
 const Interest = () => (
-  <div id="interest" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="interest" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       personal-info
@@ -49,7 +51,8 @@ const Interest = () => (
   </div>
 );
 const Profiles = () => (
-  <div id="public-profiles" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="public-profiles" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       personal-info

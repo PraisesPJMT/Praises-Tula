@@ -117,6 +117,7 @@
     gap: 3rem;
     justify-content: center;
     padding: 2rem;
+    margin: auto;
   }
 
   #hello aside {
@@ -279,5 +280,12 @@
 
   .project:hover {
     scale: 1.05;
+  }
+
+  .linkage {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -30px;
   }
 }

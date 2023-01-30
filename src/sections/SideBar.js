@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCaretDown, faCaretRight, faChevronRight,
@@ -54,7 +53,7 @@ const SideBar = () => {
       return (
         item.details.map((detail) => (
           <label className="sub-links checkbox-label" htmlFor={detail.subtitle} key={detail.subtitle}>
-            <input type="checkbox" id={detail.subtitle} className="checkbox" onChange={() => { window.location.pathname = '#projects'; }} />
+            <input type="checkbox" id={detail.subtitle} className="checkbox" onChange={() => { window.location.href = '#projects'; }} />
             <span className="label">
               <FontAwesomeIcon
                 className="content-icon"
@@ -68,7 +67,7 @@ const SideBar = () => {
     }
     return (
       item.details.map((detail) => (
-        <a className="sub-links" id={detail.id} key={detail.subtitle} href={`#${detail.link}`} target="_blank" rel="noreferrer">
+        <a className="sub-links" id={detail.id} key={detail.subtitle} href={detail.link} target="_blank" rel="noreferrer">
           <FontAwesomeIcon
             className="content-icon"
             icon={icons[detail.id - 1].icon}
