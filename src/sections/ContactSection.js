@@ -36,7 +36,21 @@ const ContactSection = () => {
     e.preventDefault();
     setFormErrors(validateValues(formState));
     setValidEmail(regex.test(formState.email));
-    setSuccess(true);
+    fetch('https://getform.io/f/b7b925e8-c2b3-4910-9af9-a635bb3c3378', {
+      method: 'POST',
+      body: JSON.stringify({
+        name: formState.name,
+        email: formState.email,
+        message: formState.message,
+      }),
+      headers: { 'Content-Type': 'application/json' },
+    })
+      .then((response) => {
+        const { status } = response;
+        if (status === 200) setSuccess(true);
+      })
+      // eslint-disable-next-line no-console
+      .catch(() => setSuccess(false));
   };
 
   const resetForm = () => {
@@ -67,21 +81,21 @@ const ContactSection = () => {
           <div className="field">
             <label htmlFor="name">
               _name:
-              <input type="text" placeholder="John Doe" name="name" id="name" className="input" onChange={handleChange} />
+              <input type="text" placeholder="John Doe" name="name" value={formState.name} id="name" className="input" onChange={handleChange} />
               { success && formState.name.length <= 0 ? (<span className="error">{ formErrors.name }</span>) : ''}
             </label>
           </div>
           <div className="field">
             <label htmlFor="email">
               _email:
-              <input type="text" placeholder="example@email.com" name="email" id="email" className="input" onChange={handleChange} />
+              <input type="text" placeholder="example@email.com" name="email" value={formState.email} id="email" className="input" onChange={handleChange} />
               { success && (formState.email.length <= 0 || !validEmail) ? (<span className="error">{ formErrors.email }</span>) : ''}
             </label>
           </div>
           <div className="field">
             <label htmlFor="message">
               _message:
-              <textarea name="message" placeholder="Come work for us" id="message" className="input" rows="7" onChange={handleChange} />
+              <textarea name="message" placeholder="Come work for us." value={formState.message} id="message" className="input" rows="7" onChange={handleChange} />
               { success && formState.message.length <= 0 ? (<span className="error">{ formErrors.message }</span>) : ''}
             </label>
           </div>
