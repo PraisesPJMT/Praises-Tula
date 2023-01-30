@@ -11,7 +11,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const ProBasic = () => (
-  <div id="basic" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="basic" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       professional-info
@@ -21,17 +22,17 @@ const ProBasic = () => (
       </span>
     </h3>
     <p>
-      I&apos;m relatively new to the software development world and
+      I fully immersed myself into the software development world and
       since May 2022 I&apos;ve been building my technical, leadership,
       and collaborative skills at
       {' '}
       <a className="text-link" href="https://www.microverse.org/" target="_blank" rel="noreferrer">Microverse</a>
       {' '}
-      through collaborating
+      through collaboration
       and pair programming with other students from all over the world.
       <br />
       <br />
-      As a Software Developer, my goal is to continually increase my
+      As a Software Developer, my goal is to continually improve my
       programming skills in order to present better solutions to my
       employers and their clients. I enjoy uncovering new ideas and
       would use them to advance my employers&apos; mission to deliver
@@ -41,7 +42,8 @@ const ProBasic = () => (
 );
 
 const TechStack = () => (
-  <div id="tech-stack" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="tech-stack" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       professional-info
@@ -175,7 +177,8 @@ const TechStack = () => (
   </div>
 );
 const TechTools = () => (
-  <div id="tool-stack" className="text-block">
+  <div className="text-block">
+    <hr className="linkage" id="tool-stack" />
     <h3 className="sub-heading2">
       <span className="harsh">## </span>
       professional-info
