@@ -13,13 +13,14 @@ import Wedrop from '../../assets/wedrop-preview.gif';
 import InklingBlog from '../../assets/inkling_blog.png';
 import FoodPad from '../../assets/foodpad.png';
 import Fruugal from '../../assets/fruugal.png';
+import VipCar from '../../assets/vip_cars.png';
 
 const images = [
   { id: 1, image: KadaTech }, { id: 2, image: ToDoList },
   { id: 3, image: AwesomeBooks }, { id: 4, image: MathMagicinas },
   { id: 5, image: Leaderboard }, { id: 6, image: Wedrop },
   { id: 7, image: InklingBlog }, { id: 8, image: FoodPad },
-  { id: 9, image: Fruugal },
+  { id: 9, image: Fruugal }, { id: 10, image: VipCar },
 ];
 
 // eslint-disable-next-line react/prop-types
@@ -35,7 +36,12 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project">
       <h4 className="project-title">
-        <span className="purple">HTML Project</span>
+        <span className="purple">
+          {/* eslint-disable-next-line react/prop-types */}
+          {stack[stack.length - 1]}
+          {' '}
+          Project
+        </span>
         <span className="text">
           <span className="mono"> &frasl; </span>
           _

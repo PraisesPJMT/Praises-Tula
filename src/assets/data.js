@@ -84,6 +84,15 @@ const Projects = [
     type: 'mobile',
     stack: ['Rails'],
   },
+  {
+    id: 10,
+    title: 'Vip Cars',
+    description: 'Fullstack web application that allows users to make basic reservations of their favourite cars and as well add in a car for rent.',
+    code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
+    link: 'https://praisespjmt.github.io/To-Do-List/',
+    type: 'desktop',
+    stack: ['React', 'Rails'],
+  },
 ];
 
 const Sidebar = [
