@@ -51,7 +51,7 @@ const Projects = [
   {
     id: 6,
     title: 'Wedrop',
-    description: 'Webapp tto check the current weather in different cities worldwide.',
+    description: 'Webapp to check the current weather in different cities worldwide.',
     code: 'https://github.com/PraisesPJMT/Wedrop-App',
     link: 'https://wedrop-app.netlify.app/',
     type: 'mobile',
