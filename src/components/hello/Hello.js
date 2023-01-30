@@ -36,7 +36,7 @@ const Hello = () => (
           <span className="purple">const </span>
           <span className="green">resumeLink</span>
           {' = '}
-          <a className="orange" href="https://docs.google.com/document/d/1UT2dALVTL1gE2cw7n67ZIFyi1tpZjLPGfFEBtJNI2Yc/edit?usp=sharing" target="_blank" rel="noreferrer">&apos;https://praises_musa.com/resume&apos;</a>
+          <a className="orange" href="https://drive.google.com/file/d/1G0vS5TSJm1x2tXJpjAzC8Q6H8p-ckPnF/view?usp=sharing" target="_blank" rel="noreferrer">&apos;https://praises_musa.com/resume&apos;</a>
           ;
         </p>
       </div>
