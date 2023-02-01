@@ -16,8 +16,8 @@ const App = () => (
       <SideBar />
       <div className="main">
         <Hello />
-        <AboutSection />
         <ProjectSection />
+        <AboutSection />
         <ContactSection />
       </div>
     </main>

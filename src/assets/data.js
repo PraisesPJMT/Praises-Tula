@@ -98,26 +98,6 @@ const Projects = [
 const Sidebar = [
   {
     id: 1,
-    type: 'links',
-    title: 'personal-info',
-    details: [
-      { subid: 1, subtitle: 'bio' },
-      { subid: 2, subtitle: 'interest' },
-      { subid: 3, subtitle: 'public-profiles' },
-    ],
-  },
-  {
-    id: 2,
-    type: 'links',
-    title: 'professional-info',
-    details: [
-      { subid: 1, subtitle: 'basic' },
-      { subid: 2, subtitle: 'tech-stack' },
-      { subid: 3, subtitle: 'tool-stack' },
-    ],
-  },
-  {
-    id: 3,
     type: 'checks',
     title: 'projects',
     details: [
@@ -133,6 +113,26 @@ const Sidebar = [
       {
         id: 4, subtitle: 'Ruby-on-Rails',
       },
+    ],
+  },
+  {
+    id: 2,
+    type: 'links',
+    title: 'personal-info',
+    details: [
+      { subid: 1, subtitle: 'bio' },
+      { subid: 2, subtitle: 'interest' },
+      { subid: 3, subtitle: 'public-profiles' },
+    ],
+  },
+  {
+    id: 3,
+    type: 'links',
+    title: 'professional-info',
+    details: [
+      { subid: 1, subtitle: 'basic' },
+      { subid: 2, subtitle: 'tech-stack' },
+      { subid: 3, subtitle: 'tool-stack' },
     ],
   },
   {

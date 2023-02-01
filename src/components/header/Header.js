@@ -7,8 +7,8 @@ const Header = () => {
 
   const NavBars = [
     { path: '#hello', link: '_hello' },
-    { path: '#about', link: '_about-me' },
     { path: '#projects', link: '_projects' },
+    { path: '#about', link: '_about-me' },
     { path: '#contact', link: '_contact-me' },
   ];
 

@@ -49,12 +49,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Preview <a name="preview"></a>
-Coming soon...
+![Portfolio Preview](./src/assets/preview.jpeg)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon...
+![Praises Tula](https://praises-tula.netlify.app/)
 
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
