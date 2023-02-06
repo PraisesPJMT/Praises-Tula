@@ -259,7 +259,7 @@
     100% { left: -300%; }
   }
 
-  .slider:hover .card {
+  .slider:hover .carl {
     animation-play-state: paused;
   }
 

@@ -22,7 +22,7 @@ const ProBasic = () => (
       </span>
     </h3>
     <p>
-      I fully immersed myself into the software development world and
+      I fully immersed myself in the software development world and
       since May 2022 I&apos;ve been building my technical, leadership,
       and collaborative skills at
       {' '}

@@ -15,7 +15,7 @@ const Projects = [
   {
     id: 2,
     title: 'ToDo List HTML',
-    description: 'Webapp that displays a list of daily tasks and allows user to add, edit, and remove task from list.',
+    description: 'Web app that displays a list of daily tasks and allows users to add, edit, and remove tasks from the list.',
     code: 'https://github.com/PraisesPJMT/To-Do-List',
     link: 'https://praisespjmt.github.io/To-Do-List/',
     type: 'mobile',
@@ -24,7 +24,7 @@ const Projects = [
   {
     id: 3,
     title: 'Awesome Books',
-    description: 'Webapp that displays a list of books and allows user to add and remove books from list.',
+    description: 'Web app that displays a list of books and allows users to add and remove books from the list.',
     code: 'https://github.com/PraisesPJMT/Awesome-Books-ES6',
     link: 'https://praisespjmt.github.io/Awesome-Books-ES6/#',
     type: 'desktop',
@@ -33,7 +33,7 @@ const Projects = [
   {
     id: 4,
     title: 'Math Magicians',
-    description: 'Webapp that users can make simple calculations and read a random math-related quote.',
+    description: 'Web app that users can make simple calculations and read a random math-related quote.',
     code: 'https://github.com/PraisesPJMT/Math-Magicians-RX',
     link: 'https://pjmt-math.netlify.app/',
     type: 'desktop',
@@ -42,7 +42,7 @@ const Projects = [
   {
     id: 5,
     title: 'Leader Board',
-    description: 'Webapp that displays scores submitted by different players and preserves data externally via API service.',
+    description: 'Web app that displays scores submitted by different players and preserves data externally via API service.',
     code: 'https://github.com/PraisesPJMT/Leaderboard',
     link: null,
     type: 'desktop',
@@ -51,7 +51,7 @@ const Projects = [
   {
     id: 6,
     title: 'Wedrop',
-    description: 'Webapp to check the current weather in different cities worldwide.',
+    description: 'Web app to check the current weather in different cities worldwide.',
     code: 'https://github.com/PraisesPJMT/Wedrop-App',
     link: 'https://wedrop-app.netlify.app/',
     type: 'mobile',
@@ -60,7 +60,7 @@ const Projects = [
   {
     id: 7,
     title: 'Inkling Blog',
-    description: 'A classic blog website with full functionality of making posts, comments and likes.',
+    description: 'A full stack classic blog website with full functionality for making posts, comments and likes.',
     code: 'https://github.com/PraisesPJMT/Inkling-Blog-App',
     link: null,
     type: 'desktop',
@@ -69,7 +69,7 @@ const Projects = [
   {
     id: 8,
     title: 'FoodPad',
-    description: 'App that keeps track of all users recipes, ingredients, and inventory and allow users to make changes to them.',
+    description: 'A full stack web app that keeps track of all users\' recipes, ingredients, and inventory and allows users to make changes to them.',
     code: 'https://github.com/PraisesPJMT/FoodPad-App',
     link: null,
     type: 'desktop',
@@ -78,16 +78,16 @@ const Projects = [
   {
     id: 9,
     title: 'Fruugal',
-    description: 'Webapp where users can manage budgets by adding expenses into categories.',
+    description: 'Full stack web app where users can manage budgets by adding expenses into categories.',
     code: 'https://github.com/PraisesPJMT/Fruugal',
-    link: 'https://fruugal-production.up.railway.app/',
+    link: null,
     type: 'mobile',
     stack: ['Rails'],
   },
   {
     id: 10,
     title: 'Vip Cars',
-    description: 'Fullstack web application that allows users to make basic reservations of their favourite cars and as well add in a car for rent.',
+    description: 'Full stack web app that allows users to make basic reservations of their favourite cars and as well add in a car for rent.',
     code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
     link: 'https://vip-cars-rental.netlify.app/',
     type: 'desktop',
