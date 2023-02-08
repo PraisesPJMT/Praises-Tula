@@ -367,7 +367,8 @@
 
   .main {
     overflow-y: scroll;
-    height: 90vh;
+    height: 88vh;
+    -webkit-overflow-scrolling: touch;
   }
 
   #hello article .green-bg {

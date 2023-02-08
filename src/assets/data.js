@@ -14,7 +14,7 @@ const Projects = [
   },
   {
     id: 2,
-    title: 'ToDo List HTML',
+    title: 'ToDo List',
     description: 'Web app that displays a list of daily tasks and allows users to add, edit, and remove tasks from the list.',
     code: 'https://github.com/PraisesPJMT/To-Do-List',
     link: 'https://praisespjmt.github.io/To-Do-List/',

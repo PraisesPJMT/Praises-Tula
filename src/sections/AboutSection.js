@@ -23,7 +23,6 @@ const AboutSection = () => (
         </article>
         <aside>
           <h3 className="sub-heading2">
-            {/* <span className="harsh">## </span> */}
             {/* personal-info */}
             <span className="text">
               <span className="mono"> &frasl; &frasl; </span>
@@ -38,7 +37,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -95,7 +94,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -159,7 +158,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -229,7 +228,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">

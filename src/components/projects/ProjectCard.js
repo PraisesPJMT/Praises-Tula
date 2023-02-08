@@ -30,9 +30,6 @@ const ProjectCard = ({ project }) => {
     id, title, description, code, link, type, stack,
   } = project;
 
-  // eslint-disable-next-line react/prop-types
-  // stack.forEach((s) => console.log(s));
-
   return (
     <div className="project">
       <h4 className="project-title">
@@ -40,7 +37,6 @@ const ProjectCard = ({ project }) => {
           {/* eslint-disable-next-line react/prop-types */}
           {stack[stack.length - 1]}
           {' '}
-          Project
         </span>
         <span className="text">
           <span className="mono"> &frasl; </span>

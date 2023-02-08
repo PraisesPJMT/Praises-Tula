@@ -1,3 +1,7 @@
+.project-title {
+  font-size: 0.95rem;
+}
+
 .project-list {
   padding: 21px 27px;
 }
@@ -136,4 +140,30 @@ input[type="checkbox"]:checked::after {
   gap: 0.5rem;
   text-decoration: none;
   align-items: center;
+}
+
+@media screen and (min-width: 820px) {
+  .project-item {
+    height: 350px;
+  }
+
+  .project-image-container {
+    max-height: 150px;
+  }
+
+  .project-image-container > img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .project-summary {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .project-views {
+    margin-top: auto;
+  }
 }

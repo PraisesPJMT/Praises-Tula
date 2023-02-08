@@ -27,7 +27,7 @@ html {
 
 body {
   margin: 0;
-  padding: 15px;
+  /*padding: 15px;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #010c15;
