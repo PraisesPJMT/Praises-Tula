@@ -18,6 +18,7 @@ const Hello = () => (
         Postgresql, JavaScript, TypeScript, React, and Redux. Devoted to developing
         customized software to meet organisational needs, highlight
         their core competencies, and further their success.
+        <a href="#contact" className="contact-link">Contact me</a>
       </div>
       <div className="green-bg" />
       <div className="purple-bg" />

@@ -35,6 +35,30 @@ h1 {
 
 .headline-header {
   color: var(--orangeColor);
+  display: flex;
+  font-size: 0.9rem;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.4rem;
+}
+
+.contact-link {
+  color: var(--textColor);
+  text-decoration: none;
+  display: flex;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  border: 2px solid var(--borderColor);
+  border-radius: 10px;
+  background: var(--borderColor);
+  margin: 0 auto;
+}
+.headline-header .contact-link {
+  margin: 0;
+}
+
+.contact-link:hover {
+  background: var(--mainColor);
 }
 
 .comment {

@@ -281,6 +281,7 @@ const AboutSection = () => (
               </div>
             </div>
           </div>
+          <a href="#contact" className="contact-link">Contact me</a>
         </aside>
       </div>
     </section>
@@ -581,6 +582,7 @@ const AboutSection = () => (
               </div>
             </div>
           </div>
+          <a href="#contact" className="contact-link">Contact me</a>
         </aside>
       </div>
     </section>
