@@ -5,7 +5,7 @@
   justify-content: space-between;
   position: relative;
   padding: 96px 27px 85px 27px;
-  min-height: 620px;
+  min-height: 100vh;
 }
 
 .headline {
@@ -17,7 +17,7 @@
 h1 {
   font-weight: 400;
   font-size: 62px;
-  /*color: var(--textColor);*/
+  color: var(--textColor);
 }
 
 .norm {
@@ -33,11 +33,15 @@ h1 {
   color: #43d9ad;
 }
 
+.headline-header {
+  color: var(--orangeColor);
+}
+
 .comment {
   font-weight: 450;
   font-size: 14px;
   color: #607b96;
-  margin: 16px 0;
+  margin: 10px 0;
 }
 
 .code {

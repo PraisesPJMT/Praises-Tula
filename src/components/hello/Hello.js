@@ -12,6 +12,13 @@ const Hello = () => (
         <p className="norm">Hi, my name is</p>
         <p className="sub-title">&gt; Full-Stack Developer</p>
       </div>
+      <div className="headline-header">
+        Detail-oriented software developer with great passion for UI creation, effects,
+        animation and dynamic user experiences. Major tech stack includes Ruby-on-Rails,
+        Postgresql, JavaScript, TypeScript, React, and Redux. Devoted to developing
+        customized software to meet organisational needs, highlight
+        their core competencies, and further their success.
+      </div>
       <div className="green-bg" />
       <div className="purple-bg" />
       <div>
@@ -23,8 +30,9 @@ const Hello = () => (
           <span className="purple">const </span>
           <span className="green">githubLink</span>
           {' = '}
-          <a className="orange" href="https://github.com/PraisesPJMT" target="_blank" rel="noreferrer">&apos;https://github.com/PraisesPJMT&apos;</a>
-          ;
+          &apos;
+          <a className="orange" href="https://github.com/PraisesPJMT" target="_blank" rel="noreferrer">https://github.com/PraisesPJMT</a>
+          &apos;;
         </p>
       </div>
       <div>
@@ -36,8 +44,9 @@ const Hello = () => (
           <span className="purple">const </span>
           <span className="green">resumeLink</span>
           {' = '}
-          <a className="orange" href="https://drive.google.com/file/d/1G0vS5TSJm1x2tXJpjAzC8Q6H8p-ckPnF/view?usp=sharing" target="_blank" rel="noreferrer">&apos;https://praises_musa.com/resume&apos;</a>
-          ;
+          &apos;
+          <a className="orange" href="https://drive.google.com/file/d/1G0vS5TSJm1x2tXJpjAzC8Q6H8p-ckPnF/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
+          &apos;;
         </p>
       </div>
     </article>
