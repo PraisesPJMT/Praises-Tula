@@ -276,6 +276,7 @@
 
   .project-summary p {
     font-size: 12px;
+    color: var(--textColor)
   }
 
   .project {

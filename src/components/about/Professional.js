@@ -6,8 +6,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
 import {
-  faBootstrap, faCodepen, faCss3Alt, faGitAlt,
-  faHtml5, faPython, faReact, faSass, faSquareGithub, faSquareJs,
+  faBootstrap, faCodepen, faCss3Alt,
+  faGitAlt, faHtml5, faPython, faReact,
+  faSass, faSquareGithub, faSquareJs,
 } from '@fortawesome/free-brands-svg-icons';
 
 const ProBasic = () => (
@@ -83,7 +84,7 @@ const TechStack = () => (
             />
           </span>
           <span className="stack-name">
-            Typescript
+            TypeScript
           </span>
         </div>
         <div className="stack-wrap">

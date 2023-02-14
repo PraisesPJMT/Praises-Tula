@@ -45,7 +45,7 @@
 }
 
 .text-block {
-  color: var(--textWhite);
+  color: var(--textColor);
   padding: 0 27px 21px 27px;
   border-bottom: 1px solid var(--borderColor);
 }
@@ -109,13 +109,14 @@
 }
 
 .typescript {
-  border: 3px solid #fff;
+  /*border: 3px solid #fff;*/
+  background: var(--textColor);
   padding: 0.1rem 0.2rem;
   border-radius: 5px;
 }
 
 .stack-wrap:hover .typescript {
-  border-color: var(--greenColor);
+  background: var(--greenColor);
 }
 
 .stack-icon.rails,
@@ -125,10 +126,12 @@
 
 .stack-icon.typescript-t {
   font-size: 0.8rem;
+  color: var(--mainColor);
 }
 
 .stack-icon.typescript-s {
   font-size: 0.4rem;
+  color: var(--mainColor);
 }
 
 .stack-icon {
@@ -136,7 +139,7 @@
 }
 
 .social-icon {
-  color: var(--textWhite);
+  color: var(--textColor);
   transition: all 0.2s ease-in-out;
 }
 

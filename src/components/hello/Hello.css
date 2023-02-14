@@ -11,18 +11,19 @@
 .headline {
   display: flex;
   flex-direction: column;
+  color: var(--textColor);
 }
 
 h1 {
   font-weight: 400;
   font-size: 62px;
-  color: #e5e9f0;
+  /*color: var(--textColor);*/
 }
 
 .norm {
   font-weight: 450;
   font-size: 18px;
-  color: #e5e9f0;
+  color: var(--textColor);
   order: -1;
 }
 
