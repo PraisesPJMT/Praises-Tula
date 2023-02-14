@@ -8,19 +8,13 @@ import KadaTech from '../../assets/kada_tech.png';
 import ToDoList from '../../assets/todo_list.png';
 import AwesomeBooks from '../../assets/awesome_books.gif';
 import MathMagicinas from '../../assets/math_magicians.gif';
-import Leaderboard from '../../assets/leaderboard.jpeg';
 import Wedrop from '../../assets/wedrop-preview.gif';
-import InklingBlog from '../../assets/inkling_blog.png';
-import FoodPad from '../../assets/foodpad.png';
-import Fruugal from '../../assets/fruugal.png';
 import VipCar from '../../assets/vip_cars.png';
 
 const images = [
   { id: 1, image: KadaTech }, { id: 2, image: ToDoList },
   { id: 3, image: AwesomeBooks }, { id: 4, image: MathMagicinas },
-  { id: 5, image: Leaderboard }, { id: 6, image: Wedrop },
-  { id: 7, image: InklingBlog }, { id: 8, image: FoodPad },
-  { id: 9, image: Fruugal }, { id: 10, image: VipCar },
+  { id: 5, image: Wedrop }, { id: 6, image: VipCar },
 ];
 
 // eslint-disable-next-line react/prop-types
