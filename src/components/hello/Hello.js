@@ -46,7 +46,7 @@ const Hello = () => (
           <span className="green">resumeLink</span>
           {' = '}
           &apos;
-          <a className="orange" href="https://drive.google.com/file/d/1G0vS5TSJm1x2tXJpjAzC8Q6H8p-ckPnF/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
+          <a className="orange" href="https://drive.google.com/file/d/1F72PTIzmBEN-WmnZda-W_5bwMZgSbCZp/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
           &apos;;
         </p>
       </div>
