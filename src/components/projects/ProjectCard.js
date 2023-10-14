@@ -9,12 +9,18 @@ import ToDoList from '../../assets/todo_list.png';
 import AwesomeBooks from '../../assets/awesome_books.gif';
 import MathMagicinas from '../../assets/math_magicians.gif';
 import Wedrop from '../../assets/wedrop-preview.gif';
-import VipCar from '../../assets/vip_cars.png';
+// import Inkling from '../../assets/inkling_blog.png';
+// import VipCar from '../../assets/vip_cars.png';
+import Leaderboard from '../../assets/leaderboard.jpeg';
+import MovieBox from '../../assets/moview-box.png';
+import Pixagram from '../../assets/pixagram.png';
 
 const images = [
   { id: 1, image: KadaTech }, { id: 2, image: ToDoList },
   { id: 3, image: AwesomeBooks }, { id: 4, image: MathMagicinas },
-  { id: 5, image: Wedrop }, { id: 6, image: VipCar },
+  { id: 4, image: Leaderboard }, { id: 5, image: Wedrop },
+  // { id: 6, image: Inkling }, { id: 10, image: VipCar },
+  { id: 6, image: MovieBox }, { id: 7, image: Pixagram },
 ];
 
 // eslint-disable-next-line react/prop-types
@@ -42,7 +48,7 @@ const ProjectCard = ({ project }) => {
       <div className="project-item">
         <div className={`project-image-container ${type}`}>
           <img
-            src={images[id - 1].image}
+            src={images[id - 1]?.image}
             alt={title}
             className={`project-image ${type}`}
           />
