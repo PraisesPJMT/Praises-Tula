@@ -10,11 +10,11 @@ const Hello = () => (
       <div className="headline">
         <h1>Praises Tula</h1>
         <p className="norm">Hi, my name is</p>
-        <p className="sub-title">&gt; Full-Stack Developer</p>
+        <p className="sub-title">&gt; Full-Stack Software Developer</p>
       </div>
       <div className="headline-header">
         Detail-oriented software developer with great passion for UI creation, effects,
-        animation and dynamic user experiences. Major tech stack includes Ruby-on-Rails,
+        animation and dynamic user experiences. Major tech stack includes Ruby-on-Rails, NodeJS,
         Postgresql, JavaScript, TypeScript, React, and Redux. Devoted to developing
         customized software to meet organisational needs, highlight
         their core competencies, and further their success.
@@ -46,7 +46,7 @@ const Hello = () => (
           <span className="green">resumeLink</span>
           {' = '}
           &apos;
-          <a className="orange" href="https://drive.google.com/file/d/1F72PTIzmBEN-WmnZda-W_5bwMZgSbCZp/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
+          <a className="orange" href="https://drive.google.com/file/d/1ihV9wuI061dUqOTeVuvTSiVz7xZbA6Y2/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
           &apos;;
         </p>
       </div>
