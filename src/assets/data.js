@@ -14,8 +14,9 @@ const Projects = [
   },
   {
     id: 2,
-    title: 'ToDo List',
-    description: 'Web app that displays a list of daily tasks and allows users to add, edit, and remove tasks from the list.',
+    title: 'ToDo List HTML',
+    description:
+      'Webapp that displays a list of daily tasks and allows user to add, edit, and remove task from list.',
     code: 'https://github.com/PraisesPJMT/To-Do-List',
     link: 'https://praisespjmt.github.io/To-Do-List/',
     type: 'mobile',
@@ -24,7 +25,8 @@ const Projects = [
   {
     id: 3,
     title: 'Awesome Books',
-    description: 'Web app that displays a list of books and allows users to add and remove books from the list.',
+    description:
+      'Webapp that displays a list of books and allows user to add and remove books from list.',
     code: 'https://github.com/PraisesPJMT/Awesome-Books-ES6',
     link: 'https://praisespjmt.github.io/Awesome-Books-ES6/#',
     type: 'desktop',
@@ -33,7 +35,8 @@ const Projects = [
   {
     id: 4,
     title: 'Math Magicians',
-    description: 'Web app that users can make simple calculations and read a random math-related quote.',
+    description:
+      'Webapp that users can make simple calculations and read a random math-related quote.',
     code: 'https://github.com/PraisesPJMT/Math-Magicians-RX',
     link: 'https://pjmt-math.netlify.app/',
     type: 'desktop',
@@ -41,46 +44,91 @@ const Projects = [
   },
   {
     id: 5,
+    title: 'Leader Board',
+    description:
+      'Webapp that displays scores submitted by different players and preserves data externally via API service.',
+    code: 'https://github.com/PraisesPJMT/Leaderboard',
+    link: null,
+    type: 'desktop',
+    stack: ['React'],
+  },
+  {
+    id: 6,
     title: 'Wedrop',
-    description: 'Web app to check the current weather in different cities worldwide.',
+    description:
+      'Webapp to check the current weather in different cities worldwide.',
     code: 'https://github.com/PraisesPJMT/Wedrop-App',
     link: 'https://wedrop-app.netlify.app/',
     type: 'mobile',
     stack: ['React'],
   },
+  // {
+  //   id: 7,
+  //   title: 'Inkling Blog',
+  //   description:
+  //     'A classic blog website with full functionality of making posts, comments and likes.',
+  //   code: 'https://github.com/PraisesPJMT/Inkling-Blog-App',
+  //   link: null,
+  //   type: 'desktop',
+  //   stack: ['Rails'],
+  // },
+  // {
+  //   id: 8,
+  //   title: 'FoodPad',
+  //   description:
+  //   'App that keeps track of all users recipes, ingredients
+  // and inventory and allow users to make changes to them.',
+  //   code: 'https://github.com/PraisesPJMT/FoodPad-App',
+  //   link: null,
+  //   type: 'desktop',
+  //   stack: ['Rails'],
+  // },
+  // {
+  //   id: 9,
+  //   title: 'Fruugal',
+  //   description:
+  //     'Webapp where users can manage budgets by adding expenses into categories.',
+  //   code: 'https://github.com/PraisesPJMT/Fruugal',
+  //   link: 'https://fruugal-production.up.railway.app/',
+  //   type: 'mobile',
+  //   stack: ['Rails'],
+  // },
+  // {
+  //   id: 10,
+  //   title: 'Vip Cars',
+  //   description:
+  //     'Fullstack web application that allows users to make basic reservations of
+  // their favourite cars and as well add in a car for rent.',
+  //   code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
+  //   link: 'https://praisespjmt.github.io/To-Do-List/',
+  //   type: 'desktop',
+  //   stack: ['React', 'Rails'],
+  // },
   {
-    id: 6,
-    title: 'Vip Cars',
-    description: 'Full stack web app that allows users to make basic reservations of their favourite cars and as well add in a car for rent.',
-    code: 'https://github.com/PraisesPJMT/Vip_Cars_React',
-    link: 'https://vip-cars-rental.netlify.app/',
+    id: 7,
+    title: 'Movie Box',
+    description:
+      'MovieBox movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies.',
+    code: 'https://github.com/PraisesPJMT/Movie_Box',
+    link: 'https://imdb-movie-box.netlify.app/',
     type: 'desktop',
-    stack: ['React', 'Rails'],
+    stack: ['React'],
+  },
+  {
+    id: 8,
+    title: 'Pixagram',
+    description:
+      'Pixagram is a responsive image web gallery that showcases a collection of images. Users can login to the gallery page, rearrange their images by dragging and dropping.',
+    code: 'https://github.com/PraisesPJMT/Pixogram',
+    link: 'https://pixagram-app.netlify.app/',
+    type: 'desktop',
+    stack: ['React'],
   },
 ];
 
 const Sidebar = [
   {
     id: 1,
-    type: 'checks',
-    title: 'projects',
-    details: [
-      {
-        id: 1, subtitle: 'HTML & CSS',
-      },
-      {
-        id: 2, subtitle: 'JavaScript',
-      },
-      {
-        id: 3, subtitle: 'React',
-      },
-      {
-        id: 4, subtitle: 'Ruby-on-Rails',
-      },
-    ],
-  },
-  {
-    id: 2,
     type: 'links',
     title: 'personal-info',
     details: [
@@ -90,7 +138,7 @@ const Sidebar = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     type: 'links',
     title: 'professional-info',
     details: [
@@ -100,15 +148,44 @@ const Sidebar = [
     ],
   },
   {
+    id: 3,
+    type: 'checks',
+    title: 'projects',
+    details: [
+      {
+        id: 1,
+        subtitle: 'HTML & CSS',
+      },
+      {
+        id: 2,
+        subtitle: 'JavaScript',
+      },
+      {
+        id: 3,
+        subtitle: 'React',
+      },
+      {
+        id: 4,
+        subtitle: 'Ruby-on-Rails',
+      },
+    ],
+  },
+  {
     id: 4,
     type: 'text',
     title: 'contacts',
     details: [
       {
-        id: 5, subtitle: 'email', value: 'praisesmusa@gmail.com', link: 'mailto:praisesmusa@gmail.com',
+        id: 5,
+        subtitle: 'email',
+        value: 'praisesmusa@gmail.com',
+        link: 'mailto:praisesmusa@gmail.com',
       },
       {
-        id: 6, subtitle: 'phone', value: '+234(0)8085851818', link: 'tel:+2348085852828',
+        id: 6,
+        subtitle: 'phone',
+        value: '+234(0)8085851818',
+        link: 'tel:+2348085852828',
       },
     ],
   },
@@ -118,16 +195,28 @@ const Sidebar = [
     title: 'find-me-also-on',
     details: [
       {
-        id: 7, subtitle: 'github', value: 'GitHub Account', link: 'https://github.com/PraisesPJMT',
+        id: 7,
+        subtitle: 'github',
+        value: 'GitHub Account',
+        link: 'https://github.com/PraisesPJMT',
       },
       {
-        id: 8, subtitle: 'linkedin', value: 'LinkedIn', link: 'https://www.linkedin.com/in/praises-tula',
+        id: 8,
+        subtitle: 'linkedin',
+        value: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/praises-tula',
       },
       {
-        id: 9, subtitle: 'mastodon', value: 'Mastodon', link: 'https://ruby.social/@pjmt',
+        id: 9,
+        subtitle: 'mastodon',
+        value: 'Mastodon',
+        link: 'https://ruby.social/@pjmt',
       },
       {
-        id: 10, subtitle: 'angellist', value: 'AngelList', link: 'https://angel.co/u/praises-tula',
+        id: 10,
+        subtitle: 'angellist',
+        value: 'AngelList',
+        link: 'https://angel.co/u/praises-tula',
       },
     ],
   },
@@ -142,14 +231,14 @@ const Testimonials = [
     link: 'https://www.linkedin.com/in/michael-mesfin-haileyesus/',
     city: 'Addis Ababa',
     country: 'Ethiopia',
-    testament: 'Praises is a great collaborator. When working with him\n'
+    testament:
+      'Praises is a great collaborator. When working with him\n'
       + '        he makes you feel calm and interested. He has proven\n'
       + '        himself as reliable, exceptionally having great attention to\n'
       + '        detail and his obsession with making great UI transpires through\n'
       + '        his work.\n'
       + '        I would recommend\n'
       + '        Praises for the role of Software Developer and so should you!',
-
   },
   {
     id: 2,
@@ -159,13 +248,13 @@ const Testimonials = [
     link: 'https://www.linkedin.com/in/sharon-kessio/',
     city: 'Nairobi',
     country: 'Kenya',
-    testament: 'Praise is easy to '
+    testament:
+      'Praise is easy to '
       + 'work with as he keeps time, fulfilled his part '
       + 'of agreements on group projects, well versed with the topics '
       + 'at hand as he did prior research, he is also keen '
       + 'on details which reduced time spent fixing bugs. I '
       + 'enjoyed working with Praises.',
-
   },
   {
     id: 3,
@@ -175,7 +264,8 @@ const Testimonials = [
     link: 'https://www.linkedin.com/in/skyv2022/',
     city: 'Chennai',
     country: 'India',
-    testament: 'Praises is an intelligent and deeply creative person. '
+    testament:
+      'Praises is an intelligent and deeply creative person. '
       + 'He is thorough and has a great eye for detail. When Praises '
       + 'was working on a project, our error-correction needs were always '
       + 'reduced by half or more thanks to his outstanding diligence and '
@@ -190,7 +280,8 @@ const Testimonials = [
     link: 'https://www.linkedin.com/in/michael-mesfin-haileyesus/',
     city: 'Addis Ababa',
     country: 'Ethiopia',
-    testament: 'Praises is a great collaborator. When working with him\n'
+    testament:
+      'Praises is a great collaborator. When working with him\n'
       + '        he makes you feel calm and interested. He has proven\n'
       + '        himself as reliable, exceptionally having great attention to\n'
       + '        detail and his obsession with making great UI transpires through\n'
@@ -206,7 +297,8 @@ const Testimonials = [
     link: 'https://www.linkedin.com/in/sharon-kessio/',
     city: 'Nairobi',
     country: 'Kenya',
-    testament: 'Praise is easy to '
+    testament:
+      'Praise is easy to '
       + 'work with as he keeps time, fulfilled his part '
       + 'of agreements on group projects, well versed with the topics '
       + 'at hand as he did prior research, he is also keen '
