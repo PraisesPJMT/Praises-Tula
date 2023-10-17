@@ -19,12 +19,12 @@ const Bio = () => (
     </h3>
     <p>
       I&apos;m a Full-Stack Software Developer located in Nigeria.
-      I have great passion for UI creation, effect,
+      I have a great passion for UI creation, effects,
       animation and dynamic user experiences.
       <br />
       <br />
-      I try to keep up with security and best practices,
-      and am always looking for new things to learn and new opportunities.
+      I try to keep up with security and best practices and am always
+      looking for new things to learn and new opportunities.
     </p>
   </div>
 );
@@ -42,7 +42,7 @@ const Interest = () => (
     </h3>
     <p>
       I&apos;m interested in working on ambitious projects with
-      positive people and goal oriented companies.
+      positive people and goal-oriented companies.
       <br />
       <br />
       I am a Liverpool FC fan. I love swimming,

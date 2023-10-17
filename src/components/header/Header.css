@@ -16,7 +16,7 @@
 }
 
 .logo:hover {
-  color: var(--textWhite);
+  color: var(--greenColor);
   scale: 1.1;
 }
 
@@ -26,22 +26,22 @@
   color: var(--textColor);
   margin: 15px;
   position: relative;
-  opacity: 0.9;
 }
 
 .nav .nav-link:hover {
-  opacity: 1;
+  color: var(--greenColor);
 }
 
 .nav .nav-link::before {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -4px;
+  bottom: -3px;
   width: 0;
-  height: 2px;
-  background: #fff;
+  height: 3px;
+  background: var(--greenColor);
   transition: all 0.45s;
+  z-index: 2000000000;
 }
 
 #active::before {
@@ -102,7 +102,7 @@
   }
 
   .nav.open .nav-link:hover {
-    color: var(--textWhite);
+    color: var(--greenColor);
     background: var(--borderColor);
   }
 
@@ -188,10 +188,10 @@
   }
 
   .nav .nav-link:hover {
-    color: #fff;
+    color: var(--textColor);
   }
 
-  .nav .projects-link {
+  .nav .about-me-link {
     border-right: 1px solid var(--borderColor);
   }
 

@@ -2,12 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGem, faWind, faLaptopCode,
-  faFileCode, faPalette,
+  faFileCode, faPalette, faT, faS,
 } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
 import {
-  faBootstrap, faCodepen, faCss3Alt, faGitAlt,
-  faHtml5, faPython, faReact, faSquareGithub, faSquareJs,
+  faBootstrap, faCodepen, faCss3Alt,
+  faGitAlt, faHtml5, faPython, faReact,
+  faSass, faSquareGithub, faSquareJs,
 } from '@fortawesome/free-brands-svg-icons';
 
 const ProBasic = () => (
@@ -22,7 +23,7 @@ const ProBasic = () => (
       </span>
     </h3>
     <p>
-      I fully immersed myself into the software development world and
+      I fully immersed myself in the software development world and
       since May 2022 I&apos;ve been building my technical, leadership,
       and collaborative skills at
       {' '}
@@ -72,12 +73,18 @@ const TechStack = () => (
           </span>
         </div>
         <div className="stack-wrap">
-          <FontAwesomeIcon
-            className="python stack-icon"
-            icon={faPython}
-          />
+          <span className="typescript">
+            <FontAwesomeIcon
+              className="typescript-t stack-icon"
+              icon={faT}
+            />
+            <FontAwesomeIcon
+              className="typescript-s stack-icon"
+              icon={faS}
+            />
+          </span>
           <span className="stack-name">
-            Python
+            TypeScript
           </span>
         </div>
         <div className="stack-wrap">
@@ -87,6 +94,15 @@ const TechStack = () => (
           />
           <span className="stack-name">
             Ruby
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="python stack-icon"
+            icon={faPython}
+          />
+          <span className="stack-name">
+            Python
           </span>
         </div>
       </div>
@@ -138,20 +154,29 @@ const TechStack = () => (
         </div>
         <div className="stack-wrap">
           <FontAwesomeIcon
-            className="react stack-icon"
-            icon={faReact}
+            className="tailwind stack-icon"
+            icon={faWind}
           />
           <span className="stack-name">
-            React
+            TailWindCSS
           </span>
         </div>
         <div className="stack-wrap">
           <FontAwesomeIcon
             className="tailwind stack-icon"
-            icon={faWind}
+            icon={faSass}
           />
           <span className="stack-name">
-            TailWind CSS
+            Sass
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="react stack-icon"
+            icon={faReact}
+          />
+          <span className="stack-name">
+            React
           </span>
         </div>
         <div className="stack-wrap">

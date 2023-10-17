@@ -7,7 +7,7 @@ footer {
 .links-container {
   display: flex;
   align-items: center;
-  color: #607b96;
+  color: var(--textColor);
   border-top: 1px solid #1e2d3d;
   border-radius: 0 0 8px 8px;
 }
@@ -19,7 +19,7 @@ footer {
 
 .links-container a {
   text-decoration: none;
-  color: #607b96;
+  color: var(--textColor);
   font-size: 1.5rem;
   display: flex;
   justify-content: center;

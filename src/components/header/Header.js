@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import ContactLink from '../footer/ContactLink';
 
@@ -7,10 +7,29 @@ const Header = () => {
 
   const NavBars = [
     { path: '#hello', link: '_hello' },
-    { path: '#about', link: '_about-me' },
     { path: '#projects', link: '_projects' },
+    { path: '#about', link: '_about-me' },
     { path: '#contact', link: '_contact-me' },
   ];
+
+  useEffect(() => {
+    const navBar = document.querySelector('#project-link');
+
+    const scrollHandler = () => {
+      if (window.scrollY > 1000) {
+        navBar?.addClass('active');
+      } else {
+        navBar?.removeClass('active');
+      }
+    };
+
+    window.addEventListener('scroll', scrollHandler);
+
+    // Return effect cleanup function to remove listener
+    return () => {
+      window.removeEventListener('scroll', scrollHandler);
+    };
+  }, []);
 
   return (
     <header className="header">
@@ -24,7 +43,7 @@ const Header = () => {
             <a
               className={`nav-link ${nav.link.slice(1)}-link`}
               href={nav.path}
-              id={window.location.pathname === nav.link ? 'active' : ''}
+              id={`${nav.link.slice(1)}-link`}
               key={nav.link}
               onClick={() => setIsOpen(false)}
             >

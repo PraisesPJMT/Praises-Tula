@@ -118,7 +118,7 @@
   #hello article {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     padding: 2rem;
     margin: auto;
@@ -259,7 +259,7 @@
     100% { left: -300%; }
   }
 
-  .slider:hover .card {
+  .slider:hover .carl {
     animation-play-state: paused;
   }
 
@@ -276,6 +276,7 @@
 
   .project-summary p {
     font-size: 12px;
+    color: var(--textColor);
   }
 
   .project {
@@ -367,7 +368,8 @@
 
   .main {
     overflow-y: scroll;
-    height: 90vh;
+    height: 88vh;
+    -webkit-overflow-scrolling: touch;
   }
 
   #hello article .green-bg {

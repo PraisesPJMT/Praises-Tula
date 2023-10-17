@@ -23,7 +23,6 @@ const AboutSection = () => (
         </article>
         <aside>
           <h3 className="sub-heading2">
-            {/* <span className="harsh">## </span> */}
             {/* personal-info */}
             <span className="text">
               <span className="mono"> &frasl; &frasl; </span>
@@ -38,7 +37,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -95,7 +94,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">2 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -159,7 +158,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -229,7 +228,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">3 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -282,6 +281,7 @@ const AboutSection = () => (
               </div>
             </div>
           </div>
+          <a href="#contact" className="contact-link">Contact me</a>
         </aside>
       </div>
     </section>
@@ -314,7 +314,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">2 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -380,7 +380,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">1 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -399,7 +399,9 @@ const AboutSection = () => (
                       <span className="orange">const </span>
                       <span className="normal">
                         languages = [
-                        <span className="green">&apos;JavaScrip.&apos;</span>
+                        <span className="green">&apos;JavaScript.&apos;</span>
+                        ,
+                        <span className="green">&apos;TypeScript.&apos;</span>
                         ,
                         <span className="green"> &apos;Ruby&apos;</span>
                         ,
@@ -449,7 +451,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">2 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -518,7 +520,7 @@ const AboutSection = () => (
                     <img src={Avatar} id="avatar" alt="Praises Tula Avatar" />
                     <div className="user-details">
                       <p className="username">@PraisesPJMT</p>
-                      <p className="login">5 months ago</p>
+                      <p className="login">3 months ago</p>
                     </div>
                   </div>
                   <p className="details">
@@ -580,6 +582,7 @@ const AboutSection = () => (
               </div>
             </div>
           </div>
+          <a href="#contact" className="contact-link">Contact me</a>
         </aside>
       </div>
     </section>

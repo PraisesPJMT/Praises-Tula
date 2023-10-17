@@ -41,7 +41,7 @@
 }
 
 .text {
-  color: var(--textColor);
+  color: var(--orangeColor);
 }
 
 .text-block {
@@ -59,7 +59,7 @@
 }
 
 .sub-heading2 {
-  color: var(--textWhite);
+  color: var(--purpleColor);
   padding: 21px 0;
   font-weight: 450;
   font-size: 16px;
@@ -82,7 +82,7 @@
 }
 
 .sub-heading3 {
-  color: var(--textWhite);
+  color: var(--purpleColor);
   padding: 10px 0 5px 0;
   font-weight: 300;
   font-size: 14px;
@@ -99,10 +99,52 @@
   display: flex;
   gap: 1rem;
   margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.stack-wrap:hover {
+  color: var(--greenColor);
+  scale: 1.1;
+}
+
+.typescript {
+  background: var(--textColor);
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+}
+
+.stack-wrap:hover .typescript {
+  background: var(--greenColor);
+}
+
+.stack-icon.rails,
+.stack-icon.ruby {
+  rotate: -45deg;
+}
+
+.stack-icon.typescript-t {
+  font-size: 0.8rem;
+  color: var(--mainColor);
+}
+
+.stack-icon.typescript-s {
+  font-size: 0.4rem;
+  color: var(--mainColor);
 }
 
 .stack-icon {
   font-size: 1.5rem;
+}
+
+.social-icon {
+  color: var(--textColor);
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: var(--greenColor);
+  scale: 1.1;
 }
 
 /* Code Snippet Styles */

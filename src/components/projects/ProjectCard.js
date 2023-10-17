@@ -8,19 +8,19 @@ import KadaTech from '../../assets/kada_tech.png';
 import ToDoList from '../../assets/todo_list.png';
 import AwesomeBooks from '../../assets/awesome_books.gif';
 import MathMagicinas from '../../assets/math_magicians.gif';
-import Leaderboard from '../../assets/leaderboard.jpeg';
 import Wedrop from '../../assets/wedrop-preview.gif';
-import InklingBlog from '../../assets/inkling_blog.png';
-import FoodPad from '../../assets/foodpad.png';
-import Fruugal from '../../assets/fruugal.png';
-import VipCar from '../../assets/vip_cars.png';
+// import Inkling from '../../assets/inkling_blog.png';
+// import VipCar from '../../assets/vip_cars.png';
+import Leaderboard from '../../assets/leaderboard.jpeg';
+import MovieBox from '../../assets/moview-box.png';
+import Pixagram from '../../assets/pixagram.png';
 
 const images = [
   { id: 1, image: KadaTech }, { id: 2, image: ToDoList },
   { id: 3, image: AwesomeBooks }, { id: 4, image: MathMagicinas },
-  { id: 5, image: Leaderboard }, { id: 6, image: Wedrop },
-  { id: 7, image: InklingBlog }, { id: 8, image: FoodPad },
-  { id: 9, image: Fruugal }, { id: 10, image: VipCar },
+  { id: 4, image: Leaderboard }, { id: 5, image: Wedrop },
+  // { id: 6, image: Inkling }, { id: 10, image: VipCar },
+  { id: 6, image: MovieBox }, { id: 7, image: Pixagram },
 ];
 
 // eslint-disable-next-line react/prop-types
@@ -30,9 +30,6 @@ const ProjectCard = ({ project }) => {
     id, title, description, code, link, type, stack,
   } = project;
 
-  // eslint-disable-next-line react/prop-types
-  // stack.forEach((s) => console.log(s));
-
   return (
     <div className="project">
       <h4 className="project-title">
@@ -40,7 +37,6 @@ const ProjectCard = ({ project }) => {
           {/* eslint-disable-next-line react/prop-types */}
           {stack[stack.length - 1]}
           {' '}
-          Project
         </span>
         <span className="text">
           <span className="mono"> &frasl; </span>
@@ -52,7 +48,7 @@ const ProjectCard = ({ project }) => {
       <div className="project-item">
         <div className={`project-image-container ${type}`}>
           <img
-            src={images[id - 1].image}
+            src={images[id - 1]?.image}
             alt={title}
             className={`project-image ${type}`}
           />

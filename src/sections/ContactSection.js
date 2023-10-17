@@ -5,7 +5,7 @@ import '../components/contact/Contact.css';
 const ContactSection = () => {
   const initialState = { name: '', email: '', message: '' };
   const [formState, setFormState] = useState(initialState);
-  const [formErrors, setFormErrors] = useState({});
+  const [formErrors, setFormErrors] = useState(initialState);
   const [validEmail, setValidEmail] = useState(false);
   const [success, setSuccess] = useState(false);
 
@@ -18,7 +18,7 @@ const ContactSection = () => {
     }
     if (!values.email) {
       errors.email = 'Email cannot be empty';
-    } else if (!regex.test(values.email)) {
+    } else if (values.email && !regex.test(values.email)) {
       errors.email = 'This is not a valid email address';
     }
     if (!values.message) {
@@ -30,13 +30,30 @@ const ContactSection = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormState({ ...formState, [name]: value });
+    setFormErrors({ ...formErrors, [name]: '' });
     setValidEmail(regex.test(formState.email));
   };
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormErrors(validateValues(formState));
     setValidEmail(regex.test(formState.email));
-    setSuccess(true);
+    if (!formErrors.name && !formErrors.email && !formErrors.message) {
+      fetch('https://getform.io/f/b7b925e8-c2b3-4910-9af9-a635bb3c3378', {
+        method: 'POST',
+        body: JSON.stringify({
+          name: formState.name,
+          email: formState.email,
+          message: formState.message,
+        }),
+        headers: { 'Content-Type': 'application/json' },
+      })
+        .then((response) => {
+          const { status } = response;
+          if (status === 200) setSuccess(true);
+        })
+        // eslint-disable-next-line no-console
+        .catch(() => setSuccess(false));
+    }
   };
 
   const resetForm = () => {
@@ -67,22 +84,22 @@ const ContactSection = () => {
           <div className="field">
             <label htmlFor="name">
               _name:
-              <input type="text" placeholder="John Doe" name="name" id="name" className="input" onChange={handleChange} />
-              { success && formState.name.length <= 0 ? (<span className="error">{ formErrors.name }</span>) : ''}
+              <input type="text" placeholder="John Doe" name="name" value={formState.name} id="name" className="input" onChange={handleChange} />
+              { formState.name.length <= 0 ? (<span className="error">{ formErrors.name }</span>) : ''}
             </label>
           </div>
           <div className="field">
             <label htmlFor="email">
               _email:
-              <input type="text" placeholder="example@email.com" name="email" id="email" className="input" onChange={handleChange} />
-              { success && (formState.email.length <= 0 || !validEmail) ? (<span className="error">{ formErrors.email }</span>) : ''}
+              <input type="text" placeholder="example@email.com" name="email" value={formState.email} id="email" className="input" onChange={handleChange} />
+              { (formState.email.length <= 0 || !validEmail) ? (<span className="error">{ formErrors.email }</span>) : ''}
             </label>
           </div>
           <div className="field">
             <label htmlFor="message">
               _message:
-              <textarea name="message" placeholder="Come work for us" id="message" className="input" rows="7" onChange={handleChange} />
-              { success && formState.message.length <= 0 ? (<span className="error">{ formErrors.message }</span>) : ''}
+              <textarea name="message" placeholder="Come work for us." value={formState.message} id="message" className="input" rows="7" onChange={handleChange} />
+              { formState.message.length <= 0 ? (<span className="error">{ formErrors.message }</span>) : ''}
             </label>
           </div>
           <div>
