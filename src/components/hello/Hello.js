@@ -13,12 +13,15 @@ const Hello = () => (
         <p className="sub-title">&gt; Full-Stack Software Developer</p>
       </div>
       <div className="headline-header">
-        Detail-oriented software developer with great passion for UI creation, effects,
-        animation and dynamic user experiences. Major tech stack includes Ruby-on-Rails, NodeJS,
-        Postgresql, JavaScript, TypeScript, React, and Redux. Devoted to developing
+        Detail-oriented software developer with great passion for UI
+        creation, effects, animation and dynamic user experiences. Major
+        tech stack includes Ruby-on-Rails, NodeJS, Postgresql,
+        JavaScript, TypeScript, React, and Redux. Devoted to developing
         customized software to meet organisational needs, highlight
         their core competencies, and further their success.
-        <a href="#contact" className="contact-link">Contact me</a>
+        <a href="#contact" className="contact-link">
+          Contact me
+        </a>
       </div>
       <div className="green-bg" />
       <div className="purple-bg" />
@@ -32,7 +35,14 @@ const Hello = () => (
           <span className="green">githubLink</span>
           {' = '}
           &apos;
-          <a className="orange" href="https://github.com/PraisesPJMT" target="_blank" rel="noreferrer">https://github.com/PraisesPJMT</a>
+          <a
+            className="orange"
+            href="https://github.com/PraisesPJMT"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/PraisesPJMT
+          </a>
           &apos;;
         </p>
       </div>
@@ -46,7 +56,14 @@ const Hello = () => (
           <span className="green">resumeLink</span>
           {' = '}
           &apos;
-          <a className="orange" href="https://drive.google.com/file/d/1ihV9wuI061dUqOTeVuvTSiVz7xZbA6Y2/view?usp=sharing" target="_blank" rel="noreferrer">https://praises_musa.com/resume</a>
+          <a
+            className="orange"
+            href="https://drive.google.com/file/d/1-xDLsGGGBrmeV81rDfK2fB_8DbmyIhlb/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://praises_musa.com/resume
+          </a>
           &apos;;
         </p>
       </div>
@@ -56,33 +73,57 @@ const Hello = () => (
       <div className="purple-bg" />
       <div className="carl-container">
         <div className="outer">
-          { Testimonials.map((testament) => (
-            <div key={`${testament.name}${testament.id}`} className="testimonial-card" style={{ '--delay': testament.delay }}>
+          {Testimonials.map((testament) => (
+            <div
+              key={`${testament.name}${testament.id}`}
+              className="testimonial-card"
+              style={{ '--delay': testament.delay }}
+            >
               <div className="testimonial">
                 <p className="quote">
-                  <FontAwesomeIcon className="left-quote-icon" icon={faQuoteLeft} />
-                  { testament.testament }
-                  <FontAwesomeIcon className="right-quote-icon" icon={faQuoteRight} />
+                  <FontAwesomeIcon
+                    className="left-quote-icon"
+                    icon={faQuoteLeft}
+                  />
+                  {testament.testament}
+                  <FontAwesomeIcon
+                    className="right-quote-icon"
+                    icon={faQuoteRight}
+                  />
                 </p>
                 <div className="profile-wrapper">
                   <div className="quote-author-wrapper user-details">
-                    <a className="username" href={testament.link} target="_blank" rel="noreferrer">
-                      <span>{ testament.name }</span>
+                    <a
+                      className="username"
+                      href={testament.link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>{testament.name}</span>
                     </a>
                     <p className="quote-author-location login">
-                      { testament.city }
+                      {testament.city}
                       ,
                       {' '}
-                      { testament.country }
+                      {testament.country}
                     </p>
                   </div>
-                  <a className="quote-link" href={testament.link} target="_blank" rel="noreferrer">
-                    <img className="quote-author-avatar" src={testament.photo} alt={testament.name} />
+                  <a
+                    className="quote-link"
+                    href={testament.link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="quote-author-avatar"
+                      src={testament.photo}
+                      alt={testament.name}
+                    />
                   </a>
                 </div>
               </div>
             </div>
-          )) }
+          ))}
         </div>
       </div>
     </aside>
