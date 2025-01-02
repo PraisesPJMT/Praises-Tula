@@ -58,11 +58,11 @@ const Hello = () => (
           &apos;
           <a
             className="orange"
-            href="https://drive.google.com/file/d/1-xDLsGGGBrmeV81rDfK2fB_8DbmyIhlb/view?usp=sharing"
+            href="https://drive.proton.me/urls/4WQBZBHSX0#eaU48xZqYnmm"
             target="_blank"
             rel="noreferrer"
           >
-            https://praises_musa.com/resume
+            https://praises_tula.com/resume
           </a>
           &apos;;
         </p>
